@@ -102,7 +102,7 @@ filetype plugin indent on    " required
 syntax on                    " always show syntax
 set laststatus=2             " always show status bar
 set number                   " show line number
-colorscheme wombat256        " set color scheme
+colorscheme hybrid_material  " set color scheme
 "
 " To ignore plugin indent changes, instead use:
 " filetype plugin on
