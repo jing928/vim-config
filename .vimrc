@@ -83,11 +83,6 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'pangloss/vim-javascript'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'nono/vim-handlebars'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'tpope/vim-haml'
-Plugin 'tpope/vim-cucumber'
-Plugin 'fatih/vim-go'
-Plugin 'rosstimson/scala-vim-support'
 Plugin 'chrisbra/csv.vim'
 Plugin 'elzr/vim-json'
 
@@ -101,7 +96,6 @@ Plugin 'carlobaldassi/ConqueTerm'
 Plugin 'sjl/vitality.vim'
 Plugin 'brysgo/test_server'
 Plugin 'mdelillo/vim-simple-bdd'
-Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
