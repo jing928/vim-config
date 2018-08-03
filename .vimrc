@@ -1,7 +1,5 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
-set t_Co=256                  " set Vim color to 256 bit
-
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -14,15 +12,9 @@ Plugin 'VundleVim/Vundle.vim'
 "
 " Colorschemes
 "
-Plugin 'tpope/vim-vividchalk'
-Plugin 'chriskempson/base16-vim'
-Plugin 'molokai'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'wgibbs/vim-irblack'
-Plugin 'chriskempson/vim-tomorrow-theme'
-Plugin 'candycode.vim'
-Plugin 'Colour-Sampler-Pack'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'ayu-theme/ayu-vim'
 
 " General Editing
 "
@@ -102,7 +94,11 @@ filetype plugin indent on    " required
 syntax on                    " always show syntax
 set laststatus=2             " always show status bar
 set number                   " show line number
-colorscheme hybrid_material  " set color scheme
+set termguicolors            " set Vim color to terminal gui colors
+let ayucolor='mirage'
+colorscheme ayu              " set color scheme
+
+let g:airline_theme='powerlineish'
 "
 " To ignore plugin indent changes, instead use:
 " filetype plugin on
