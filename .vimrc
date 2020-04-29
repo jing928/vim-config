@@ -99,6 +99,8 @@ let ayucolor='mirage'
 colorscheme ayu              " set color scheme
 
 let g:airline_theme='powerlineish'
+let g:yankring_history_file = '.yankring_history'
+
 "
 " To ignore plugin indent changes, instead use:
 " filetype plugin on
